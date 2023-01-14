@@ -1,0 +1,196 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+:root {
+  --orange: #FD9546;
+  --olive-drab: #504A3B;
+  --silver-pink: #C1BAA7;
+  --dark-gray: #A9AAA7;
+  --text-colour: #181B15;
+  --white: #ffffff; 
+}
+
+h1 {
+    font-size: 31px;
+}
+
+h2 {
+    font-size: 24px;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: var(--tex-colour);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.section {
+    padding: 10px 0 50px 0;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0px auto 0px auto;
+}
+
+#hero {
+    background: var(--olive-drab);
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav {
+    border-bottom: 1px solid var(--silver-pink);
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 40px;
+}
+
+
+#logo {
+    width: 170px;;
+}
+
+.two-col-flex {
+    display: flex;
+    /* justify-content: space-between; */
+    gap:20px;
+}
+
+.text-wrapper {
+ text-align: left;
+ color: var(--white);
+}
+
+.heading-one {
+    margin-top: 50px;
+}
+
+.text-wrapper .city-description {
+    margin-bottom: 40px;
+}
+
+.orange-text {
+    color: var(--orange);
+}
+
+
+.btn {
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--orange);
+    transition: 0.8s;
+}
+
+.btn:hover {
+    background-color: #FA842B;
+    color: #000000;
+}
+
+.btn {
+    text-decoration:none;
+    color: var(--white);
+}
+
+#activities {
+    padding: 50px 0px 50px 0px;
+    background-color: var(--silver-pink);
+}
+
+.activities-wrapper img {
+    width: 120px;
+}
+
+#activities .section-heading {
+    width: 400px;
+    margin: 0px auto 0px auto;
+}
+
+.activities-wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.activities-wrapper .item {
+ width: 33.333%;
+}
+
+
+#guide-section {
+    background-color: var(--dark-gray);
+    padding: 50px 0px 50px 0px;
+}
+
+#guide-section img {
+    width: 300px;
+    border:6px solid var(--orange);
+    border-radius: 4px;
+    transform: rotate(356deg);
+    border-radius: 4px;
+}
+
+.main-img {
+    width: 600px;
+    border: 6px solid var(--orange);
+    border-radius: 4px;
+    transform:  rotate(359deg);
+}
+
+.guide-text-wrapper {
+    max-width: 450px;
+    text-align: left;
+    margin-top: 80px;
+}
+
+#guide-section .space-around {
+    justify-content: space-around;
+}
+
+footer {
+    background-color: var(--olive-drab);
+    color: var(--silver-pink);
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.dribbble-icon:hover {
+    fill: #ea4c89;
+}
+
+
+
+
+
